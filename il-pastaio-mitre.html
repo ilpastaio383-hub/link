@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>il pastaio — Emilio Mitre</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Cinzel:wght@500;600&display=swap" rel="stylesheet">
+<style>
+  html,body{ margin:0; padding:0; }
+  body{
+    width:1024px; height:768px;
+    display:flex; align-items:center; justify-content:center;
+    background:
+      radial-gradient(circle at 30% 20%, rgba(255,255,255,0.5), transparent 55%),
+      radial-gradient(circle at 75% 80%, rgba(120,90,50,0.08), transparent 55%),
+      #e9e1d0;
+  }
+  .card{
+    width: 960px; height: 704px;
+    background: #ece4d3;
+    border: 1.5px solid rgba(120,90,40,0.35);
+    border-radius: 10px;
+    box-shadow: inset 0 0 0 10px #ece4d3, inset 0 0 0 11px rgba(120,90,40,0.35);
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    font-family:'Cinzel', serif;
+  }
+  .kicker{
+    font-size: 22px;
+    font-weight:600;
+    letter-spacing: 0.32em;
+    color: #a8823f;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.4);
+    margin-bottom: 6px;
+  }
+  .brand{
+    font-family:'Pinyon Script', cursive;
+    font-size: 190px;
+    line-height: 1;
+    color: #4a2c1a;
+    background: linear-gradient(180deg, #6b4226 0%, #3c2313 55%, #6b4226 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 2px 0 #cbb98a);
+    margin: -10px 0 0;
+  }
+  .flourish{
+    width: 480px;
+    margin-top: -6px;
+  }
+  .address{
+    margin-top: 26px;
+    font-size: 21px;
+    font-weight: 600;
+    letter-spacing: 0.16em;
+    color: #4a2c1a;
+  }
+  .whatsapp{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    color: #a8823f;
+  }
+  .dot{
+    color: #a8823f;
+    margin: 0 10px;
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="kicker">CUCINA ITALIANA</div>
+    <div class="brand">il pastaio</div>
+
+    <svg class="flourish" viewBox="0 0 480 60" xmlns="http://www.w3.org/2000/svg">
+      <path d="M20,30 C120,10 200,50 280,25 C330,10 360,30 400,20" fill="none" stroke="#a8823f" stroke-width="2"/>
+      <path d="M400,20 L420,14 M400,20 L415,28 M410,17 L428,10 M410,17 L423,26 M420,14 L438,8 M420,14 L433,22" stroke="#4a2c1a" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+      <circle cx="20" cy="30" r="3" fill="#a8823f"/>
+      <path d="M20,30 C10,20 10,40 20,30" fill="none" stroke="#a8823f" stroke-width="1.5"/>
+    </svg>
+
+    <div class="address">EMILIO MITRE 383<span class="dot">·</span>CABALLITO</div>
+    <div class="whatsapp">WHATSAPP 11 2280-6075</div>
+  </div>
+</body>
+</html>
